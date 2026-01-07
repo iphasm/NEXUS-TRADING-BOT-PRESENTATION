@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus Trading Bot | Algorithmic Trading Platform</title>
     <meta name="description"
-        content="Advanced algorithmic trading bot with AI-powered analysis, machine learning, and multi-strategy execution across 30+ crypto pairs on Binance Futures and stocks/ETFs via Alpaca.">
+        content="Advanced algorithmic trading bot with AI-powered analysis across Binance, Bybit, and Alpaca. Trade 30+ crypto pairs, derivatives, and stocks/ETFs with unified risk management.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -637,7 +637,7 @@
             <div class="hero-badge">🚀 Powered by AI & Machine Learning</div>
             <h1>Trade Smarter with <span>Nexus Algorithm</span></h1>
             <p>Advanced algorithmic trading bot with real-time WebSocket data, AI-powered analysis, and multi-strategy
-                execution across crypto and traditional markets.</p>
+                execution across <strong>Binance, Bybit, and Alpaca</strong> exchanges.</p>
             <div class="hero-buttons">
                 <a href="https://t.me/nexusalgorithmbasedtradingbot" class="cta-button">Start Trading Now</a>
                 <a href="#features" class="btn-secondary">Learn More</a>
@@ -652,8 +652,8 @@
                     <div class="stat-label">Trading Strategies</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value">2</div>
-                    <div class="stat-label">Market Types</div>
+                    <div class="stat-value">3</div>
+                    <div class="stat-label">Exchanges</div>
                 </div>
                 <div class="stat">
                     <div class="stat-value">&lt;1s</div>
@@ -697,8 +697,8 @@
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🌐</div>
-                <h3>Multi-Exchange Support</h3>
-                <p>Binance & Bybit integration with robust conditional orders, automatic failover, and unified risk management.</p>
+                <h3>Multi-Exchange Trading</h3>
+                <p><strong>Binance, Bybit & Alpaca</strong> integration with robust conditional orders, automatic failover, and unified risk management across all platforms.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">📱</div>
@@ -734,23 +734,33 @@
         </div>
     </section>
 
-    <!-- Markets Section -->
+    <!-- Multi-Exchange Section -->
     <section class="features" style="padding: 4rem 2rem;">
         <div class="section-header">
-            <h2>Multi-Market Coverage</h2>
-            <p>Trade across cryptocurrency and traditional markets</p>
+            <h2>Multi-Exchange Trading</h2>
+            <p>Seamlessly trade across the world's leading exchanges with unified risk management</p>
         </div>
-        <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+        <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
             <div class="feature-card">
-                <div class="feature-icon">₿</div>
-                <h3>Cryptocurrency (Binance Futures)</h3>
-                <p>29+ crypto pairs including BTC, ETH, SOL, BNB, XRP, ADA, DOGE, SHIB, PEPE, FLOKI, BONK, WIF, SUI, SEI, INJ, RENDER, ICP, UNI, CRV, POL, and more...</p>
+                <div class="feature-icon" style="font-size: 2rem;">🟡</div>
+                <h3>Binance Futures</h3>
+                <p><strong>29+ Cryptocurrency Pairs</strong><br>Including BTC, ETH, SOL, BNB, XRP, ADA, DOGE, SHIB, PEPE, FLOKI, BONK, WIF, SUI, SEI, INJ, RENDER, ICP, UNI, CRV, POL, and more...</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">📈</div>
-                <h3>Stocks & ETFs (Alpaca)</h3>
-                <p>Access traditional markets with TSLA, NVDA, AMD, AAPL, MSFT, SPY, QQQ, IWM and comprehensive stock trading capabilities.</p>
+                <div class="feature-icon" style="font-size: 2rem;">🔷</div>
+                <h3>Bybit</h3>
+                <p><strong>Advanced Derivatives Trading</strong><br>Native support for conditional orders, trailing stops, and position management with superior execution speed.</p>
             </div>
+            <div class="feature-card">
+                <div class="feature-icon" style="font-size: 2rem;">📈</div>
+                <h3>Alpaca</h3>
+                <p><strong>Stocks & ETFs</strong><br>Access traditional markets with TSLA, NVDA, AMD, AAPL, MSFT, SPY, QQQ, IWM and comprehensive stock trading capabilities.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; padding: 1rem; background: rgba(0, 212, 170, 0.1); border-radius: 12px; border: 1px solid rgba(0, 212, 170, 0.3);">
+            <p style="color: var(--accent-primary); font-weight: 600; margin: 0;">
+                🚀 <strong>Unified Trading Experience</strong> - One bot, three exchanges, infinite possibilities
+            </p>
         </div>
     </section>
 
@@ -769,10 +779,9 @@
             <div class="terminal-body">
                 <div class="terminal-line"><span class="terminal-success">🧠 Nexus Analyst: CONNECTED.</span></div>
                 <div class="terminal-line"><span class="terminal-output">🔄 Proxy configured: [04 Users]</span></div>
-                <div class="terminal-line"><span class="terminal-success">✅ Binance Client Init (✅ Proxy): [04
-                        Users]</span></div>
-                <div class="terminal-line"><span class="terminal-success">✅ Alpaca Client Initialized (Paper: Mixed):
-                        [02 Users]</span></div>
+                <div class="terminal-line"><span class="terminal-success">✅ Binance Futures Client: [04 Users] (Crypto Trading)</span></div>
+                <div class="terminal-line"><span class="terminal-success">✅ Bybit Client: [03 Users] (Advanced Derivatives)</span></div>
+                <div class="terminal-line"><span class="terminal-success">✅ Alpaca Client: [02 Users] (Stocks & ETFs)</span></div>
                 <div class="terminal-line"><span class="terminal-output">📅 TaskScheduler: Initialized actions [analyze,
                         news, sniper, dashboard]</span></div>
                 <div class="terminal-line"><span class="terminal-output">🔧 SYSTEM DIRECTIVE CHECK: ADMIN:✅ | BIN_KEY:✅
@@ -824,7 +833,7 @@
                 <ul class="pricing-features">
                     <li>Everything in Copilot</li>
                     <li>Full automation</li>
-                    <li>Crypto + Stocks</li>
+                    <li>Binance, Bybit & Alpaca</li>
                     <li>Custom strategies</li>
                     <li>1-on-1 onboarding</li>
                 </ul>
@@ -837,11 +846,11 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <div class="footer-brand">
-                <div class="logo">⚡ NEXUS</div>
-                <p>Advanced algorithmic trading platform combining AI, machine learning, and proven strategies for
-                    cryptocurrency and stock markets.</p>
-            </div>
+                <div class="footer-brand">
+                    <div class="logo">⚡ NEXUS</div>
+                    <p>Advanced algorithmic trading platform combining AI, machine learning, and proven strategies across
+                        <strong>Binance, Bybit, and Alpaca</strong> exchanges.</p>
+                </div>
             <div class="footer-links">
                 <h4>Product</h4>
                 <ul>
